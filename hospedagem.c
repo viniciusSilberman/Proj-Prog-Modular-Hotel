@@ -232,7 +232,7 @@ HP_RET fechaHospedagem(void){
   
     FILE* arq;
     cadeiaHospedagem_S* p;
-    int campos[N_CAMPOS_INT];
+    int campos[16];
 
     /* "wb": o b (binario) e essencial no Windows, que em modo texto troca
      * todo byte 10 (\n) por 13 10 (\r\n) e estragaria os numeros gravados */
